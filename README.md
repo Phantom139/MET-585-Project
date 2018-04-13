@@ -24,4 +24,13 @@ This project seeks to explore the climatological trend in baroclinity over the p
 It is hypothesized that under climate change scenarios, the meridional (Y) temperature gradient is weakening, and hence the low level temperature gradient is also weakening, reducing baroclinity with time.
 
 ### Python
-Run the first three code blocks before using any of the other blocks to load in the required packages, define the constants and variables, and load into memory some helper functions
+This project employs Python to perform the downloading of the data, calculation of baroclinity using the above foruma, and then generation of analysis plots. You will need the following packages:
+
+* numpy
+* matplotlib
+* Basemap
+* scipy (stats module)
+* netCDF4
+* ftblib
+
+All of these packages can be obtained from the anaconda installation of python, and hence it is recommended that you use it.
